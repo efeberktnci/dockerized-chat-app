@@ -1,6 +1,6 @@
 ﻿# 🐳 Dockerized Chat Application
 
-Grade 5.0 Project — Cloud‑oriented Web Applications Course
+Cloud‑oriented Web Applications Course
 
 A fully containerized, real‑time chat application using React (frontend), Node.js/Express (backend), MongoDB, Apache Kafka, and WebSockets. Everything runs with Docker Compose.
 
@@ -31,6 +31,7 @@ A fully containerized, real‑time chat application using React (frontend), Node
 |  (React)   | <--------------- | (Node.js)  |  <------------ | (MongoDB)  |
 |   :3000    |    WebSocket     |   :5000    |    Queries     |   :27017   |
 +------------+                   +------------+                +------------+
+                                     |
                                      |
                                      | Pub/Sub
                                      v
